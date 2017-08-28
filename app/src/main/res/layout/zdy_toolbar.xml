@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blue"
+    android:fitsSystemWindows="true"
+    android:id="@+id/toolbar_zdy"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/main_cd"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_remove_white_36pt3x"/>
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"   />
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="Git Trending"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+
+
+    <ImageView
+        android:id="@+id/main_star"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"        android:src="@drawable/ic_star_border_white" />
+
+    <ImageView
+        android:id="@+id/main_slh"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="10dp"        android:src="@drawable/ic_more_vert_white_48pt" />
+</LinearLayout>
